@@ -1,0 +1,70 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;--rgba(247,144,51, .2);
+  text-transform: uppercase;
+}
+
+body::before {
+  background-image: url('/images/amigos_logo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  opacity: 0.1;
+}
+
+.card-header {
+  background-color: rgba(247,144,51);
+  color: #FFF;
+  font-size: 25px;
+  font-weight: 1000;
+  border-color: rgba(247,144,51);
+}
+
+label {
+  font-size: 20px !important;
+}
+
+.card {
+  border-color: rgba(247,144,51);
+}
+
+#thank-you {
+  margin: 0 auto;
+  display: none;
+  color: rgba(247,144,51);
+  font-size: 100px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+#checkmark {
+  margin: 0 auto;
+  display: none;
+}
+
+#form-container {
+  height: 100vw;
+}
+
+.btn, .btn-primary {
+  background-color: rgba(247,144,51);
+  font-size: 20px;
+  border-color: rgba(247,144,51);
+  font-weight: 900;
+}
+
+.btn:hover, .btn-primary:hover {
+  background-color: rgba(247,144,51);
+}
+
+.check {
+  transform: scale(8);
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Email Sign-Up Application for Amigos de Santa Cruz",
+  "short_name": "Sign-Up App",
+  "background_color": "#F79033",
+  "theme_color": "#F79033",
+  "start_url": "/index.php",
+  "display": "standalone",
+  "orientation":"landscape",
+  "icons": [{
+      "src": "images/amigos_logo.jpg",
+      "type": "image/jpg",
+      "size": "1323x1310"
+  }]
+}
